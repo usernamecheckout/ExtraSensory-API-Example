@@ -43,6 +43,16 @@
                 android:id="@+id/selecting_timestamp"></Spinner>
 
         </LinearLayout>
+        <Button
+            android:id="@+id/graphButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Progress"/>
+        <Button
+            android:id="@+id/goalButton"
+            android:text="View Goals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/the_scrolled_text"
